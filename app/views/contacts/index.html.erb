@@ -1,0 +1,3 @@
+<%- form_tag Contacts::Google.authentication_url(url_for(:action => 'show', :only_path => false)) do -%>
+  <%= submit_tag "Clique aqui" %>
+<%- end -%>
